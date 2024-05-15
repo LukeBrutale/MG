@@ -4,9 +4,9 @@ import IPhone from './images/IPhone.png';
 export default function JohnWickPage() {
   return (
     <section className="px-[50px]">
-          <div className='mt-[80px] relative'> 
-      <h2 className='w-72 text-2xl font-bold leading-7 text-white mb-[15px]'>Дивіться фільми<br/> без інтернету</h2>
-      <p className='text-base leading-tight text-white mb-[30px]'>Завантаження фільмів та серіалів на ваш пристрій.</p>
+          <div className=' relative'> 
+      <h2 className='w-[288px] text-2xl font-bold leading-7 text-white mb-[15px] m:min-w-[400px] m:mb-[30px]'>Дивіться фільми без інтернету</h2>
+      <p className='min-w-[275px] text-base leading-tight text-white mb-[30px]'>Завантаження фільмів та серіалів на ваш пристрій.</p>
       <div className="relative">
         <Image
           className=""

@@ -3,12 +3,13 @@ import content from './images/content.png'
 
 export default function ContentPage() {
     return(
-         <div className='mb-[90px] relative mt-[-140px] border-8 border-green-400 z-10'> 
+         <div className='  mb-[90px] relative mt-[-140px] border-8 border-green-400 z-10 s:min-w-[375px] m:w-[481px]'> 
          <Image
+         className='w-full'
                 src={content}
                 alt="content"
               />
-        <section className="px-[50px]">
+        <section className="px-[50px] flex justify-center">
             <div className=' absolute top-[36px] z-20'>
                 <p className=" mb-[5px] text-base tracking-wide leading-snug text-white">Передплата</p>
                 <p className=" mb-[110px] text-2xl font-bold tracking-wider text-white">Оптимальна</p>
