@@ -8,12 +8,10 @@ import ConnectPage from "@/components/connectPage/ConnectPage";
 export default function Home() {
   return (
     <>
-    <section className="px-[50px] ">
       <MainPage/>
       <JohnWickPage/>
       <ContentPage/>
       <ConnectPage/>
-    </section>
     </>
   );
 }
