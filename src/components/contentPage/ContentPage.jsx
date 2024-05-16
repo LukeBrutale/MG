@@ -16,11 +16,11 @@ export default function ContentPage() {
           <div className=' absolute top-[36px] z-20'>
             <p className=" mb-[5px] text-base tracking-wide leading-snug text-white">Передплата</p>
             <p className=" mb-[110px] text-2xl font-bold tracking-wider text-white">Оптимальна</p>
-            <h2 className="mb-[10px] min-w-[288px] text-4xl font-bold text-white">10000 фільмів та 160+ каналів</h2>
-            <p className="mb-[40px] min-w-64 max-w-[668px] text-base tracking-wide leading-snug text-white">
+            <h2 className="s:max-w-[288px] mb-[10px]  text-4xl font-bold text-white m:max-w-100">10000 фільмів та 160+ каналів</h2>
+            <p className="s:max-w-64 mb-[40px]  text-base tracking-wide leading-snug text-white m:max-w-80">
               Голлівудська класика та свіжі кіно-новинки за підпискою, прямі футбольні трансляції та понад 160 каналів
             </p>
-            <p className="text-2xl font-bold tracking-wider leading-loose text-white lowercase">від 1 ГРН</p>
+            <p className="text-2xl font-bold tracking-wider leading-loose text-white lowercase m:mb-8 m:text-3xl">від 1 ГРН</p>
             <div className='mb-[10px]'>
               <Button>Спробувати</Button>
             </div>
