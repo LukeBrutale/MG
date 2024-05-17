@@ -34,6 +34,7 @@ export default function ConnectPage() {
           </div>
 
           <div className=" mb-[132px]">
+            {/* <button className='w-[200px] h-[55px] bg-green-400 rounded py-[21px] px-[57px] text-xs font-semibold  text-white uppercase'>Підключити</button> */}
             <Button>Підключити</Button>
           </div>
         </div>
