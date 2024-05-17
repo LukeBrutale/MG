@@ -6,7 +6,7 @@ import Container from '@/shared/components/container/Container';
 export default function ContentPage() {
   return (
     <Container>
-      <div className='  min-w-[375px] mb-[90px] relative mt-[-140px] border-8 border-green-400 z-10 s:min-w-[375px] '>
+      <div className=' min-w-[375px] mb-[90px] relative mt-[-140px] border-8 border-green-400 z-10 s:min-w-[375px] '>
         <Image
           className='w-full'
           src={content}
@@ -30,6 +30,5 @@ export default function ContentPage() {
         </section>
       </div>
     </Container>
-
   )
 }
